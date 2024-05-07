@@ -1,0 +1,95 @@
+body {
+    
+    margin: 50px;
+    text-align: center;
+    color: var(--color);
+    background-color: var(--bg);
+    font-family: 'Times New Roman', Times, serif;
+    margin: 20px;
+}
+
+.container {
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: #333 2px 2px;
+    color: #e79717;
+    max-width: 500px;
+    margin: auto;
+}
+
+input[type="number"] {
+    
+    width: 60%;
+    padding: 40px;
+    margin: 10px 0;
+    border: 5px solid #93a5bb;
+    border-radius: 9px;
+    box-shadow: #333 2px 2px;
+    
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #34393e;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: #6f7885 2px 2px;
+}
+
+button:hover {
+    background-color: #6f7885;
+    
+}
+
+.result {
+    margin-top: 20px;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+
+#ueberschrift {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #e89b1f;
+}
+
+.darkmode {
+    display: flex;
+    justify-content: right;
+    align-items: right;
+}
+
+:root {
+    --color: #333;
+    --bg: white;
+
+    
+
+}
+
+.whitemode{
+    --color: #ffa71a;
+    --bg: #333;
+    background-color: linear;
+
+
+}
+
+
+.result {
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p:hover {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    text-shadow: #6f7885 2px 2px;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: ease-in-out 0.5s;
+    color: rgb(252, 43, 165);
+}
